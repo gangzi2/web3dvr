@@ -6,7 +6,7 @@ import { RouterModule} from '@angular/router';
 import { appRoutes  } from './routers';   
 import { FormsModule } from '@angular/forms';
 import { AuthentictionModule } from './authentiction/authentiction.module';
- 
+import { Viewer3dModule } from './viewer3d/viewer3d.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +17,7 @@ import { AuthentictionModule } from './authentiction/authentiction.module';
     BrowserAnimationsModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
+    Viewer3dModule
   ],
   providers: [],
   bootstrap: [AppComponent]
