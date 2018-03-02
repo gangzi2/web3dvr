@@ -1,5 +1,5 @@
 
-
+/*
 import { Routes } from '@angular/router';
 import { CreateComponent } from './components/create/create.component';
 import { EditComponent } from './components/edit/edit.component';
@@ -17,3 +17,4 @@ export const appRoutes: Routes = [
       component: IndexComponent
     }
   ];
+  */

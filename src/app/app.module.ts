@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule} from '@angular/router';
-//import { appRoutes  } from './routerConfig';    RouterModule.forRoot(appRoutes),
+import { appRoutes  } from './routers';   
 import { FormsModule } from '@angular/forms';
 import { AuthentictionModule } from './authentiction/authentiction.module';
  
@@ -15,9 +15,11 @@ import { AuthentictionModule } from './authentiction/authentiction.module';
     BrowserModule,
     AuthentictionModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

@@ -2,17 +2,19 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from './components/header/header.component';
-import { appRoutes  } from './routerConfig';
-
+//import { appRoutes  } from './routerConfig';
+import { AuthentictionComponent } from './authentiction.component';
 @NgModule({
   imports: [
-    CommonModule,
+    CommonModule
   ],
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    AuthentictionComponent
   ],
   exports:[
-    HeaderComponent
+    HeaderComponent,
+    AuthentictionComponent
   ]
 })
 export class AuthentictionModule{ }
