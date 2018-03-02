@@ -13,6 +13,14 @@ import { MatButtonModule, MatToolbarModule,MatMenuModule,MatInputModule, MatProg
     MatCardModule,
     MatIconModule
  ],
-  exports: [MatButtonModule,MatToolbarModule,MatMenuModule,MatInputModule,MatProgressSpinnerModule,MatCardModule,MatIconModule ],
+  exports: [
+    MatButtonModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatInputModule,
+    MatProgressSpinnerModule,
+    MatCardModule,
+    MatIconModule 
+  ],
 })
 export class MaterialModule { }
